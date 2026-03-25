@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --color-lenny-dark: #0F1B2D;
+  --color-lenny-cyan: #00B4D8;
+  --color-lenny-gold: #F4A261;
+  --color-lenny-green: #22C55E;
+  --color-lenny-bg: #111827;
+  --color-lenny-card: #1F2937;
+  --color-lenny-border: #374151;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  direction: rtl;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: var(--color-lenny-bg);
+  color: #f9fafb;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+::-webkit-scrollbar-thumb {
+  background: #374151;
+  border-radius: 3px;
+}
